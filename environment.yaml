@@ -1,0 +1,17 @@
+# environment_mac.yaml
+
+name: projeto-pydirdbjson
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.13.3
+  - pip==25.1
+  - build==1.2.2
+  - ipykernel==6.29.5
+  - ipywidgets==8.1.6
+  - pytest==8.3.5
+  - setuptools==80.1.0
+  - wheel==0.45.1
+  - twine==6.1.0
+  
