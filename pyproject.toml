@@ -1,0 +1,19 @@
+[project]
+name = "pydirdbjson"
+version = "1.0.0"
+authors = [
+  { name="Ricardo P Ferreras", email="ricardo.ferreras@gmail.com" },
+]
+description = "A Database in JSON on directory"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/FerrerasRP/Projeto-PyDirDbJson"
+Issues = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/issues"
