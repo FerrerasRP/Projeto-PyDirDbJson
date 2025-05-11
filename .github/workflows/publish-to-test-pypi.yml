@@ -38,9 +38,9 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: testpypi
-      url: https://testpypi.org/p/pydirdbjson  # Replace <package-name> with your PyPI project name
+      url: https://test.pypi.org/p/pydirdbjson  # Replace <package-name> with your PyPI project name
     permissions:
-      id-token: ${{ TEST_PYPI_API_TOKEN }}  # IMPORTANT: mandatory for trusted publishing
+      id-token: write # IMPORTANT: mandatory for trusted publishing
 
     steps:
     - name: Download all the dists
