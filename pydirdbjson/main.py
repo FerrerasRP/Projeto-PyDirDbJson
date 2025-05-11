@@ -30,11 +30,6 @@ class Pydirdbjson:
         query_by_key_value(): Query a record by value and key on table.
 
     """
-    __version__ = "1.0.0"
-    __author__ = "Ricardo P Ferreras"
-    __email__ = "ricardo(dot)ferreras(at)gmail(dot)coms"
-    __license__ = "MIT"
-
     def __init__(self,
                  db_path: str):
         self.db_path = db_path

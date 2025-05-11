@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pydirdbjson"
-version = "1.0.0"
+dynamic=["version"]
 authors = [
   { name="Ricardo P Ferreras", email="ricardo.ferreras@gmail.com" },
 ]
@@ -23,3 +23,6 @@ license-files = ["LICEN[CS]E*"]
 Homepage = "https://github.com/FerrerasRP/Projeto-PyDirDbJson"
 Issues = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/issues"
 Changelog = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/CHANGELOG.md"
+
+[tool.setuptools.dynamic]
+version = {attr = "pydirdbjson.__version__"}
