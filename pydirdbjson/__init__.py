@@ -3,7 +3,7 @@
 """
 from .main import Pydirdbjson
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __author__ = "Ricardo P Ferreras"
 __email__ = "ricardo(dot)ferreras(at)gmail(dot)coms"
 __license__ = "MIT"
