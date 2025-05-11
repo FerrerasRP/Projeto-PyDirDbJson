@@ -29,9 +29,8 @@ jobs:
         name: python-package-distributions
         path: dist/
     
-  publish-to-test-pypi:
-    name: >-
-      Publish Python 🐍 distribution 📦 to TestPyPI
+  publish-to-testpypi:
+    name: Publish Python 🐍 distribution 📦 to TestPyPI
     if: startsWith(github.ref, 'refs/tags/')  # only publish to TestPyPI on tag pushes
     needs:
     - build
@@ -51,6 +50,7 @@ jobs:
     - name: Publish distribution 📦 to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
+        repository-url: https://test.pypi.org/legacy/
         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
   
   github-release:
@@ -58,7 +58,7 @@ jobs:
       Sign the Python 🐍 distribution 📦 with Sigstore
       and upload them to GitHub Release
     needs:
-    - publish-to-test-pypi
+    - publish-to-testpypi
     runs-on: ubuntu-latest
 
     permissions:
