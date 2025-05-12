@@ -22,7 +22,7 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/FerrerasRP/Projeto-PyDirDbJson"
 Issues = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/issues"
-Changelog = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/CHANGELOG.md"
+Changelog = "https://github.com/FerrerasRP/Projeto-PyDirDbJson/blob/main/CHANGELOG.md"
 
 [tool.setuptools.dynamic]
 version = {attr = "pydirdbjson.__version__"}
