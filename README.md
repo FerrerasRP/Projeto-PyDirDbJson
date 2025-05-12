@@ -1,5 +1,7 @@
 # Projeto-PyDirDbJson
 
+[![Run Python tests](https://github.com/FerrerasRP/Projeto-PyDirDbJson/actions/workflows/test.yml/badge.svg)](https://github.com/FerrerasRP/Projeto-PyDirDbJson/actions/workflows/test.yml)
+[![Publish Python to PyPI](https://github.com/FerrerasRP/Projeto-PyDirDbJson/actions/workflows/publish_to_pypi.yml/badge.svg)](https://github.com/FerrerasRP/Projeto-PyDirDbJson/actions/workflows/publish_to_pypi.yml)
 ![GitHub repo size](https://img.shields.io/github/repo-size/FerrerasRP/Projeto-PyDirDbJson)
 ![GitHub contributors](https://img.shields.io/github/contributors/FerrerasRP/Projeto-PyDirDbJson)
 ![GitHub stars](https://img.shields.io/github/stars/FerrerasRp/Projeto-PyDirDbJson)
